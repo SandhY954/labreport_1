@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+    box-sizing: border-box;
+}
+#header{
+    background-color: brown;
+    text-align: center;
+    padding: 10px 0;
+}
+#menu{
+    background-color: aquamarine;
+    padding: 5px 0 5px 20px;
+}
+#left-content{
+    background-color: blueviolet;
+    width: 20%;
+    height: 200px;
+    text-align: center;
+    float: left;
+    border-right: 3px solid salmon;
+}
+#main-content{
+    background-color: rgb(197, 197, 59);
+    width: 80%;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+#footer{
+    background-color: blue;
+    padding: 10px 0;
+    text-align: center;
+    clear: both;
+}
