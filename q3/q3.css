@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+/* Navigation Styling */
+nav {
+    background: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #28a745;
+}
+
+/* Section Styling */
+section {
+    padding: 40px;
+    margin: 40px;
+
+    margin-top: 100px;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Image Styling */
+img {
+    margin: 5px;
+}
+
+.gallery-image:hover {
+    scale: 150%;
+    transition: ease-in-out 0.5s;
+}
+
+/* Contact Form */
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}

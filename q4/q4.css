@@ -1,0 +1,50 @@
+.container {
+    padding: 10px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+
+.list-box {
+    background-color: white;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.list-box h4 {
+    color: black;
+    text-align: center;
+    font-weight: 900;
+}
+
+.list-box ul li {
+    font-weight: 500;
+}
+
+#disc-list {
+    list-style-type: disc;
+}
+
+#square-list {
+    list-style-type: square;
+}
+
+#circle-list {
+    list-style-type: circle;
+}
+
+#decimal-list {
+    list-style-type: decimal;
+}
+
+#decimal-zero-list {
+    list-style-type: decimal-leading-zero;
+}
+
+#lower-alpha-list {
+    list-style-type: lower-alpha;
+}

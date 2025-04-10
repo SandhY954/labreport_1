@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Q.8 Image Map Example</title>
+   <style>
+      body {
+         text-align: center;
+         font-family: Arial, sans-serif;
+      }
+   </style>
+</head>
+
+<body>
+
+   <h1>Image Map with Rectangle, Circle, and Polygon Shapes</h1>
+
+   <p>Click on different areas of the image to navigate:</p>
+
+   <img src="./../image/flower.jpeg" height="800px" width="800px" alt="Image Map Example" usemap="#image-map">
+
+   <map name="image-map">
+      <!-- Rectangle shape: x1, y1, x2, y2 -->
+      <area shape="rect" coords="50,50,150,150" href="./../image/flower1.jpeg" alt="Rectangle Area">
+
+      <!-- Circle shape: x, y, radius -->
+      <area shape="circle" coords="300,100,50" href="./../image/f2.jpeg" alt="Circle Area">
+
+      <!-- Polygon shape: x1, y1, x2, y2, x3, y3, x4, y4 -->
+      <area shape="poly" coords="350,200,400,250,300,250" href="./../image/f3.jpeg" alt="Polygon Area">
+   </map>
+
+   <p>Click on the rectangle, circle, or polygon area to visit different links.</p>
+
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content ="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="./q3.css">
+          <title>HTML4</title>
+          
+    </head>
+    <body>
+        <!-- Navigation Menu -->
+        <header>
+           <nav>
+              <ul>
+                 <li><a href="#about">About Us</a></li>
+                 <li><a href="#services">Services</a></li>
+                 <li><a href="#gallery">Gallery</a></li>
+                 <li><a href="#contact">Contact Us</a></li>
+              </ul>
+           </nav>
+        </header>
+     
+     
+        <!-- About Us Section -->
+        <section id="about">
+           <h2>About Us</h2>
+           <p>Tucked in the heart of the neighborhood, our cozy cafe offers the perfect escape from the daily rush. We serve freshly brewed coffee made from locally roasted beans, along with a variety of homemade pastries, sandwiches, and seasonal specialties. Whether you're catching up with friends, diving into a good book, or just need a quiet space to work, our warm atmosphere and friendly staff make you feel right at home. With free Wi-Fi, comfortable seating, and a welcoming vibe, it’s more than just a coffee stop—it’s your new favorite hangout. Come in, sip slow, and stay a while.</p>
+        </section>
+     
+     
+        <!-- Services Section -->
+        <section id="services">
+           <h2>Our Services</h2>
+            <p>Our cafe takes pride in offering warm, attentive service that makes every guest feel like part of the family. From the moment you walk in, you're greeted with genuine smiles and a relaxed, welcoming atmosphere. Our baristas are passionate about coffee and happy to customize your drink just the way you like it. Whether you’re in for a quick takeaway or planning to linger over a latte, we’re here to ensure a smooth, enjoyable experience. Cleanliness, promptness, and hospitality are at the heart of what we do—because great service is just as important as great coffee.</p>
+           <ul>
+              <li>Coffee & Beverage Service </li>
+              <li>Food Menu</li>
+              <li>Dine-In & Takeaway</li>
+           </ul>
+        </section>
+     
+     
+        <!-- Gallery Section -->
+        <section id="gallery">
+           <h2>Gallery</h2>
+            <p>The gallery of our cafe beautifully captures the heart and soul of our space. From cozy corners with vintage décor to the warm glow of sunlight pouring through our windows, every photo reflects the inviting ambiance we’ve created for our guests. You'll find snapshots of our handcrafted coffee, colorful dishes made with love, and the smiling faces of our baristas and regulars. The gallery also highlights our seasonal decorations, local art displays, and special events, giving a true sense of the vibrant community we serve. It’s more than a visual showcase—it’s a glimpse into the daily charm of our cafe.</p>
+           <img src="./../image/cafe.jpg" alt="Sample Image" class="gallery-image">
+           <img src="./../image/cafe2.webp" alt="Sample Image" class="gallery-image">
+           <img src="./../image/cofee.jpeg" alt="Sample Image" class="gallery-image">
+        </section>
+     
+     
+        <!-- Contact Us Section -->
+        <section id="contact">
+           <h2>Contact Us</h2>
+           <form onsubmit="alert('Form Submitted Successfully!')">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required><br>
+              <label for="message">Message:</label><br>
+              <textarea id="message" name="message" rows="4" required></textarea><br>
+              <button type="submit">Send</button>
+           </form>
+        </section>
+     </body>
+</html>
