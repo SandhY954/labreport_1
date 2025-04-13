@@ -1,0 +1,28 @@
+
+body {
+   font-family: Arial, sans-serif;
+}
+
+.navbar {
+   background-color: yellow;
+   padding: 10px;
+   display: flex;
+   align-items: center;
+}
+
+.navbar a {
+   text-decoration: none;
+   color: purple;
+   padding: 10px 20px;
+   font-size: 18px;
+   transition: background 0.3s ease;
+}
+
+.navbar a.active {
+   background-color: blue;
+   color: white;
+}
+
+.navbar a:not(:last-child) {
+   border-right: 2px solid black;
+}

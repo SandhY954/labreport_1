@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+
+ .container {
+    width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+ }
+
+ h2 {
+    color: red;
+    text-align: center;
+ }
+
+ label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+ }
+
+ input,
+ select,
+ textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid orange;
+    border-radius: 4px;
+ }
+
+ .gender {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+ .gender input {
+    width: auto;
+ }
+
+ .buttons {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+ }
+
+ .buttons button {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+ }
+
+ .register {
+    background-color: blue;
+ }
+
+ .clear {
+    background-color: red;
+ }
+
+ .input-group {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+ }
+
+ .input-label {
+    width: 30%;
+    margin-right: 10px;
+ }
+
+ .checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+ }

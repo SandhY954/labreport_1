@@ -1,0 +1,65 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Header and Footer */
+.header,
+.footer {
+    background-color: #4a4a6d;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #808080;
+    color: black;
+    padding: 10px;
+}
+
+/* Main Section with Flexbox */
+.main {
+    display: flex;
+    height: 300px;
+}
+
+/* Left Section */
+.left {
+    width: 20%;
+    background-color: brown;
+    color: white;
+    padding: 20px;
+}
+
+/* Middle Content Section */
+.content {
+    width: 60%;
+    background-color: deepskyblue;
+    color: black;
+    padding: 20px;
+}
+
+/* Right Section */
+.right {
+    width: 20%;
+    background-color: blueviolet;
+    color: black;
+    padding: 20px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Q. 18 Registration Form</title>
+<link rel="stylesheet" href="q18.css">
+</head>
+
+<body>
+   <div class="container">
+      <h2>Registration Form</h2>
+      <fieldset>
+         <legend style="font-size: 20px; font-weight: bold; text-align: center; ">
+            Personal Information
+         </legend>
+         <form>
+            <div class="input-group">
+               <div class="input-label">
+                  <label for="name">Name</label>
+               </div>
+               <input type="text" id="name" placeholder="Enter Name">
+            </div>
+            <div class="input-group">
+               <div class="input-label">
+                  <label for="address">Address</label>
+               </div>
+               <input type="text" id="address">
+            </div>
+            <div class="input-group">
+               <div class="input-label">
+                  <label for="phone">Phone</label>
+               </div>
+               <input type="tel" id="phone" placeholder="Enter Phone Number">
+            </div>
+            <div class="input-group">
+               <div class="input-label">
+                  <label for="gender">Gender</label>
+               </div>
+               <div class="gender" id="gender">
+                  <input type="radio" name="gender"> Male
+                  <input type="radio" name="gender"> Female
+               </div>
+            </div>
+            <div class="input-group">
+               <div class="input-label">
+                  <label>Country</label>
+               </div>
+
+               <select>
+                  <option>Select Country</option>
+                  <option>USA</option>
+                  <option>Canada</option>
+                  <option>India</option>
+               </select>
+            </div>
+            <div class="input-group">
+               <div class="input-label">
+                  <label for="message">Message</label>
+               </div>
+               <textarea rows="3" id="message"></textarea>
+            </div>
+            <div class="input-group">
+               <div class="input-label">
+                  <label>Image</label>
+               </div>
+               <input type="file">
+            </div>
+            <!-- <div class="checkbox">
+               <input type="checkbox" id="check" name="check" value="accept">
+               <p>I accept terms and conditions</p>
+            </div> -->
+            <div class="buttons">
+               <button type="submit" class="register">Register</button>
+               <button type="reset" class="clear">Clear</button>
+            </div>
+         </form>
+      </fieldset>
+   </div>
+</body>
+
+</html>
